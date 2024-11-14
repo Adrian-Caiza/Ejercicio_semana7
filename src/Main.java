@@ -9,7 +9,7 @@ public class Main {
         perro1.mostrarPerro();
 
         //padre e hija
-
+        Gato gato1= new Gato(Silvestre);
 
     }
 }
