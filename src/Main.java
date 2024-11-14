@@ -9,7 +9,28 @@ public class Main {
         perro1.mostrarPerro();
 
         //padre e hija
-        Gato gato1= new Gato(Silvestre);
+        Gato gato1= new Gato("Silvestre", 4,"perza","agudo");
+        gato1.mostrarMascotas();
+        gato1.mostrarGato();
+
+        //solo padre
+        Tortuga tortuga1= new Tortuga("Rayo",10);
+        tortuga1.mostrarMascotas();
+        tortuga1.mostrarTortuga();
+
+        //solo hija
+        Hamster hamster1= new Hamster("britanico", true);
+        hamster1.mostrarMascotas();
+        hamster1.mostrarHamster();
+
+        //sin parametros y seteo
+        Pajaro pajaro1= new Pajaro();
+        pajaro1.setRaza("rapaz");
+        pajaro1.setTamañoPico(2);
+        pajaro1.setNombre("Silvestre");
+        pajaro1.setEdad(2);
+        pajaro1.mostrarMascotas();
+        pajaro1.mostrarPajaro();
 
     }
 }
